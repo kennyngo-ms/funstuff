@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LeetCode\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj": {}
+    "D:\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj": {}
   },
   "projects": {
-    "D:\\LeetCode\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj": {
+    "D:\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LeetCode\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj",
+        "projectUniqueName": "D:\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj",
         "projectName": "PalindromeSubstring",
-        "projectPath": "D:\\LeetCode\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj",
-        "packagesPath": "C:\\Users\\kennyngo.NORTHAMERICA\\.nuget\\packages\\",
-        "outputPath": "D:\\LeetCode\\funstuff\\PalindromeSubstring\\obj\\",
+        "projectPath": "D:\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj",
+        "packagesPath": "C:\\Users\\kennyngo\\.nuget\\packages\\",
+        "outputPath": "D:\\funstuff\\PalindromeSubstring\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kennyngo.NORTHAMERICA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kennyngo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,7 +26,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://msazure.pkgs.visualstudio.com/_packaging/Official%40Local/nuget/v3/index.json": {}
+          "https://msazure.pkgs.visualstudio.com/_packaging/Official%40Local/nuget/v3/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/_packaging/Official/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {

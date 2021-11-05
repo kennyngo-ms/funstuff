@@ -47,7 +47,7 @@ namespace PalindromeSubstring
                 size = 1;
                 tSubstring = tString.Substring(i, size);
 
-                while (CheckPalindromeReverseString(tSubstring) && i - (size/2) >= -1 && i + (size/2) < stringLength)
+                while (CheckPalindrome(tSubstring) && i - (size/2) >= -1 && i + (size/2) < stringLength)
                 {
                     allPalindromes.Add(tSubstring);
                     size=size+2;
@@ -59,7 +59,7 @@ namespace PalindromeSubstring
                 //even palindromes
                 size = 2;
                 if(i+size/2<stringLength) tSubstring = tString.Substring(i, size);
-                while (CheckPalindromeReverseString(tSubstring) && i - (size / 2) >= -1 && i + (size / 2) < stringLength)
+                while (CheckPalindrome(tSubstring) && i - (size / 2) >= -1 && i + (size / 2) < stringLength)
                 {
                     allPalindromes.Add(tSubstring);
                     size = size + 2;
@@ -78,6 +78,13 @@ namespace PalindromeSubstring
             if (palindrome == reverseString) return true;
             else return false;
 
+        }
+
+        static bool CheckPalindrome(string palindrome)
+        {
+            if (palindrome == null) return false;
+            else if (palindrome[0] == palindrome[palindrome.Length - 1]) return true;
+            else return false;
         }
 
         private static string RandomString(int length = 20)
