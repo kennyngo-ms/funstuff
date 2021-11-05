@@ -7,24 +7,31 @@ namespace PalindromeSubstring
     {
         static void Main(string[] args)
         {
-            //string testString = "eye bird madam abba";
-            string testString = RandomString(10);
+            string testString = "eye bird madam abba";
+            //string testString = RandomString(40);
+            int minSize = 1;
             Console.WriteLine(testString);
-            //Console.WriteLine((3/2));
             List<string> palindromes= new List<string>();
+            HashSet<string> uniquePalindromes = new HashSet<string>();
 
             palindromes = ExtractPalindrome(testString);
-            int count = 0;
+
+            Console.Write("\nPalindromes: ");
             foreach (string i in palindromes) 
-            {
-                if (i.Length == 1)
-                {
-                    
-                    Console.Write(count + i + "  ");
-                    count++;
-                }
+            {   
+                //print all palindrome with lenght greater than minSize
+                if (i.Length > minSize) Console.Write(i + "  ");
+                uniquePalindromes.Add(i);
             }
-            
+
+            Console.Write("\nUnique Palindromes: ");
+            foreach (string i in uniquePalindromes)
+            {
+                //print all palindrome with lenght greater than minSize
+                if (i.Length > minSize) Console.Write(i + "  ");
+            }
+
+
         }
         
         static List<String> ExtractPalindrome(string tString)
@@ -42,7 +49,6 @@ namespace PalindromeSubstring
 
                 while (CheckPalindromeReverseString(tSubstring) && i - (size/2) >= -1 && i + (size/2) < stringLength)
                 {
-                    Console.WriteLine(i + " substring: " + tSubstring + " size: " + size);
                     allPalindromes.Add(tSubstring);
                     size=size+2;
 
@@ -55,12 +61,10 @@ namespace PalindromeSubstring
                 if(i+size/2<stringLength) tSubstring = tString.Substring(i, size);
                 while (CheckPalindromeReverseString(tSubstring) && i - (size / 2) >= -1 && i + (size / 2) < stringLength)
                 {
-                    Console.WriteLine(i + " substring: " + tSubstring + " size: " + size);
                     allPalindromes.Add(tSubstring);
                     size = size + 2;
 
-                    if (i - (size / 2) >= 0 && i + (size / 2) < stringLength) tSubstring = tString.Substring(i - (size / 2), size);
-
+                    if (i - (size / 2)+1 >= 0 && i + (size / 2) < stringLength) tSubstring = tString.Substring(i - (size / 2)+1, size);
                 }
             }
             return allPalindromes;
