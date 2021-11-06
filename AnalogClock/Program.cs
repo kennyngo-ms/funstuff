@@ -6,7 +6,7 @@ namespace AnalogClock
     {
         static void Main(string[] args)
         {
-            string time = "09:15";
+            string time = "01:50";
 
             int hours = 0; int minutes = 0;
             float hourHandAngle = 0; float minuteHandAngle;

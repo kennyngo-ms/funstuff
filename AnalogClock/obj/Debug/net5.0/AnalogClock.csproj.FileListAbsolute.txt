@@ -1,0 +1,15 @@
+D:\funstuff\AnalogClock\bin\Debug\net5.0\AnalogClock.exe
+D:\funstuff\AnalogClock\bin\Debug\net5.0\AnalogClock.deps.json
+D:\funstuff\AnalogClock\bin\Debug\net5.0\AnalogClock.runtimeconfig.json
+D:\funstuff\AnalogClock\bin\Debug\net5.0\AnalogClock.runtimeconfig.dev.json
+D:\funstuff\AnalogClock\bin\Debug\net5.0\AnalogClock.dll
+D:\funstuff\AnalogClock\bin\Debug\net5.0\ref\AnalogClock.dll
+D:\funstuff\AnalogClock\bin\Debug\net5.0\AnalogClock.pdb
+D:\funstuff\AnalogClock\obj\Debug\net5.0\AnalogClock.GeneratedMSBuildEditorConfig.editorconfig
+D:\funstuff\AnalogClock\obj\Debug\net5.0\AnalogClock.AssemblyInfoInputs.cache
+D:\funstuff\AnalogClock\obj\Debug\net5.0\AnalogClock.AssemblyInfo.cs
+D:\funstuff\AnalogClock\obj\Debug\net5.0\AnalogClock.csproj.CoreCompileInputs.cache
+D:\funstuff\AnalogClock\obj\Debug\net5.0\AnalogClock.dll
+D:\funstuff\AnalogClock\obj\Debug\net5.0\ref\AnalogClock.dll
+D:\funstuff\AnalogClock\obj\Debug\net5.0\AnalogClock.pdb
+D:\funstuff\AnalogClock\obj\Debug\net5.0\AnalogClock.genruntimeconfig.cache
