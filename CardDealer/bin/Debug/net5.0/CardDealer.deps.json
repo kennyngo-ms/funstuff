@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "PalindromeSubstring/1.0.0": {
+      "CardDealer/1.0.0": {
         "runtime": {
-          "PalindromeSubstring.dll": {}
+          "CardDealer.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "PalindromeSubstring/1.0.0": {
+    "CardDealer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

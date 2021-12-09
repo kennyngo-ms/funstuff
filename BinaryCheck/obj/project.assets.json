@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj",
-      "projectName": "PalindromeSubstring",
-      "projectPath": "D:\\funstuff\\PalindromeSubstring\\PalindromeSubstring.csproj",
+      "projectUniqueName": "D:\\funstuff\\BinaryCheck\\BinaryCheck.csproj",
+      "projectName": "BinaryCheck",
+      "projectPath": "D:\\funstuff\\BinaryCheck\\BinaryCheck.csproj",
       "packagesPath": "C:\\Users\\kennyngo\\.nuget\\packages\\",
-      "outputPath": "D:\\funstuff\\PalindromeSubstring\\obj\\",
+      "outputPath": "D:\\funstuff\\BinaryCheck\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

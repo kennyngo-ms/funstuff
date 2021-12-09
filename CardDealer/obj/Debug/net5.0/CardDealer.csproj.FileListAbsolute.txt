@@ -1,0 +1,16 @@
+D:\funstuff\CardDealer\bin\Debug\net5.0\CardDealer.exe
+D:\funstuff\CardDealer\bin\Debug\net5.0\CardDealer.deps.json
+D:\funstuff\CardDealer\bin\Debug\net5.0\CardDealer.runtimeconfig.json
+D:\funstuff\CardDealer\bin\Debug\net5.0\CardDealer.runtimeconfig.dev.json
+D:\funstuff\CardDealer\bin\Debug\net5.0\CardDealer.dll
+D:\funstuff\CardDealer\bin\Debug\net5.0\ref\CardDealer.dll
+D:\funstuff\CardDealer\bin\Debug\net5.0\CardDealer.pdb
+D:\funstuff\CardDealer\obj\Debug\net5.0\CardDealer.csproj.AssemblyReference.cache
+D:\funstuff\CardDealer\obj\Debug\net5.0\CardDealer.GeneratedMSBuildEditorConfig.editorconfig
+D:\funstuff\CardDealer\obj\Debug\net5.0\CardDealer.AssemblyInfoInputs.cache
+D:\funstuff\CardDealer\obj\Debug\net5.0\CardDealer.AssemblyInfo.cs
+D:\funstuff\CardDealer\obj\Debug\net5.0\CardDealer.csproj.CoreCompileInputs.cache
+D:\funstuff\CardDealer\obj\Debug\net5.0\CardDealer.dll
+D:\funstuff\CardDealer\obj\Debug\net5.0\ref\CardDealer.dll
+D:\funstuff\CardDealer\obj\Debug\net5.0\CardDealer.pdb
+D:\funstuff\CardDealer\obj\Debug\net5.0\CardDealer.genruntimeconfig.cache

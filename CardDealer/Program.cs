@@ -9,7 +9,7 @@ namespace CardDealer
         {
             Random ran = new Random();
             int cardIndex = 0;
-            int handsize = 13; //must be less than 13
+            int handsize = 4; //must be less than 13
             int player=0;
 
             List<int> deck = new List<int>();
@@ -28,12 +28,7 @@ namespace CardDealer
             {
                 if (deck.Count >= 1)
                 {
-                    //generate a random number
                     cardIndex = ran.Next(0, deck.Count);
-                    
-                    //Console.Write("Random card: "+card+"   ");
-                    //add card to player
-                    
                     switch ((player+i)%4+1)
                     {
                         case 1: player1.Add(deck[cardIndex]); break;
@@ -67,7 +62,7 @@ namespace CardDealer
             player.Sort();
             foreach( int i in player)
             {
-                Console.Write("Count:"+count+ " Card:"+getCard(i)+" \n");
+                Console.Write(getCard(i)+" \n");
                 count++;
             }
         }
